@@ -32,7 +32,7 @@ public final class Pet {
 	
 	@Override
 	public String toString() {
-		return species + " " + name + color + " (" + age.toString() + ")";
+		return species + " " + name + " " + color + " (" + age.toString() + ")";
 	}
 	
 }
