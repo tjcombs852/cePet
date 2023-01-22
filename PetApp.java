@@ -14,7 +14,7 @@ public class PetApp {
 	}
 	
 	public static void main(String[] args) {
-		st.put((int)(10+Math.random()*20.0), new Pet(8, "Buddy", "dog"));
+		st.put((int)(10+Math.random()*20.0), new Pet(8, "Buddy", "dog", "merle"));
 		
 		Pet[] pets = new Pet[] {
 				new Pet (1, "Bailey", "cat", "black/white"),
