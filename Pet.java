@@ -6,10 +6,11 @@ public final class Pet {
 	private Integer age;
 	private String species;
 	
-	public Pet(int Age, String Name, String Species) {
+	public Pet(int Age, String Name, String Species, String color) {
 		species = Species;
 		name = Name;
 		age = Age;
+		color = Color;
 	}
 	
 	public Integer getAge() {
@@ -24,9 +25,13 @@ public final class Pet {
 		return species;
 	}
 	
+	public String getColor() {
+		return color;
+	}
+	
 	@Override
 	public String toString() {
-		return species + " " + name + " (" + age.toString() + ")";
+		return species + " " + name + color + " (" + age.toString() + ")";
 	}
 	
 }
