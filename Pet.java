@@ -7,7 +7,7 @@ public final class Pet {
 	private String species;
 	private String color;
 	
-	public Pet(int Age, String Name, String Species, String color) {
+	public Pet(int Age, String Name, String Species, String Color) {
 		species = Species;
 		name = Name;
 		age = Age;
